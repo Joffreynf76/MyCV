@@ -63,7 +63,16 @@ class AchievementsWidget extends WP_Widget {
                 <h4>".$achievements->description."</h4>
                 <p>".$achievements->url.
 
-                "</p>";
+                "</p>
+                <p>
+                Début : ".$achievements->begin."
+                </p>
+                <p>
+                Fin : ".$achievements->end."
+                </p>
+                <p>
+                Rôle : ".$achievements->role."
+                </p>";
 
                 foreach($visual as $visuals){
 
@@ -100,7 +109,16 @@ class AchievementsWidget extends WP_Widget {
                     <h4>".$achievements->description."</h4>
                     <p>".$achievements->url.
 
-                    "</p>";
+                    "</p>
+                    <p>
+                    Début : ".$achievements->begin."
+                    </p>
+                    <p>
+                    Fin : ".$achievements->end."
+                    </p>
+                    <p>
+                    Rôle : ".$achievements->role."
+                    </p>";
 
                     foreach($visual as $visuals){
 
